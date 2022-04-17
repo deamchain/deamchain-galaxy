@@ -44,6 +44,6 @@ require (
 	gopkg.in/urfave/cli.v1 v1.20.0
 )
 
-replace github.com/ethereum/go-ethereum => github.com/galaxy-digital/deam-go v0.1.0
+replace github.com/ethereum/go-ethereum => github.com/deamchain/deamchain-go v0.1.0
 
 replace github.com/dvyukov/go-fuzz => github.com/guzenok/go-fuzz v0.0.0-20210103140116-f9104dfb626f
