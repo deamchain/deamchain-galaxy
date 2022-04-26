@@ -3,9 +3,9 @@ package gossip
 import (
 	"fmt"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/kvdb"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/deamchain/deamchain-galaxy/inter"

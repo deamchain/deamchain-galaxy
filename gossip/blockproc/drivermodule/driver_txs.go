@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/core/types"

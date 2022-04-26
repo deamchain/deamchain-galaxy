@@ -3,7 +3,7 @@ package parentscheck
 import (
 	"errors"
 
-	base "github.com/deamchain/lachesis-base/eventcheck/parentscheck"
+	base "github.com/deamchain/deam-base/eventcheck/parentscheck"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 )

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/deamchain/lachesis-base/emitter/doublesign"
-	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/deam-base/emitter/doublesign"
+	"github.com/deamchain/deam-base/hash"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 	"github.com/deamchain/deamchain-galaxy/utils/errlock"

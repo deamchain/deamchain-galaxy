@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/kvdb"
-	"github.com/deamchain/lachesis-base/kvdb/table"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb/table"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"

@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -57,59 +57,33 @@ func MakeGenesisStore() *genesisstore.Store {
 	genStore.SetRules(galaxy.MainNetRules())
 
 	var validatorAccounts = []ValidatorAccount{
-		// for mainnet
 		{
 			address:   "0x11111111aCC5167eC76ba11Bfc8e6Aa595b816B7",
-			validator: "047cf4039d716c107f389b2b7ae1bc3775cf6d4aad3b3ab3f663d8f34bef892fa6397e4dbd60c5205464db38d2578a8201813c281304018b102b7530fc5f4e16ee",
+			validator: "04c88ecc035ab92b27ee5f601c116ca34aec75db1cc80336dc718f71a685b7c72b9825d932a3e81906f8696ba90c6ad37fe249e91280609c2ade5166a343fca463",
 		},
 		{
 			address:   "0x22222222cfaecf02D2Ec037D070996e1E933B655",
-			validator: "04d8597293ef427f5fd03a9ea33b4bd77de037eb43f46553a1f6f57bee71b1b913c3a3bac451bd02b552ce376a07c28b540723acd08d2284b98a90925425b8e88f",
+			validator: "046c294ab24ccd1730e200069f269abfc2dd4535105b80ce5f072cc4da70fb1dd0e045c81866213351b8ef287a27036b51d954e529b601db02f12e55ba911b0027",
 		},
 		{
 			address:   "0x33333333A4c641FC9a8A1BF806Af683Fc9bd89E9",
-			validator: "04b0df54022cf14df39e3caba140a6c83ab17d98055dacd6048c41ecc5ae2ceff164787fa5e1585e2670bd43d9fec86c055e13bc944eded3f90e3bc844c9a4b18c",
-		},
-		{
-			address:   "0x4444444448bdfFb42257449f2730Ba9400F41103",
-			validator: "04b0df54022cf14df39e3caba140a6c83ab17d98055dacd6048c41ecc5ae2ceff164787fa5e1585e2670bd43d9fec86c055e13bc944eded3f90e3bc844c9a4b18c",
-		},
-		{
-			address:   "0x555555555033c16772201210A1B0062ADf0Fe0b8",
-			validator: "047cf4039d716c107f389b2b7ae1bc3775cf6d4aad3b3ab3f663d8f34bef892fa6397e4dbd60c5205464db38d2578a8201813c281304018b102b7530fc5f4e16ee",
-		},
-		{
-			address:   "0x66666666061c2cb748fF9Acb790E7ffC37496F45",
-			validator: "04d8597293ef427f5fd03a9ea33b4bd77de037eb43f46553a1f6f57bee71b1b913c3a3bac451bd02b552ce376a07c28b540723acd08d2284b98a90925425b8e88f",
-		},
-		{
-			address:   "0x777777775ad670e03C31b549F132CbcA7E17A7Cd",
-			validator: "04b0df54022cf14df39e3caba140a6c83ab17d98055dacd6048c41ecc5ae2ceff164787fa5e1585e2670bd43d9fec86c055e13bc944eded3f90e3bc844c9a4b18c",
-		},
-		{
-			address:   "0x8888880A30642CFdB618F176ddA8f14276a3e2Ff",
-			validator: "04b0df54022cf14df39e3caba140a6c83ab17d98055dacd6048c41ecc5ae2ceff164787fa5e1585e2670bd43d9fec86c055e13bc944eded3f90e3bc844c9a4b18c",
+			validator: "043ffe83fd18973d42e39826ecc5f08b81190ccbb0ac27cdaf66397844e81c0631a2f369322c3361ee9e7e42b980f96254c01d9512867199a22e0c287a821488f4",
 		},
 	}
-
 	var initialAccounts = []string{
-		"0xE609E7b6CC745890Dad1a294533A5255F3F8b8C4",
-		"0x4b5d1Ec4B41E1F6044f89b8BfdE8080c3e1A153E",
-		"0x8B5F5b536B3a90325B145eBd47947aA26Af29C93",
-		"0xb37AD99122c7B15A7f87adC8bB92370287706F44",
-		"0xd9085E79773C7cAF608530c0c50c6FFB3fD57398",
+		"0x007da50000dc48e3fbf65d637f8c4cb988518f9f",
 	}
 	num := len(validatorAccounts)
 
-	_total := 1000
+	_total := int(1e9)
 	_validator := 0
-	_staker := 20
+	_staker := int(1 * 1e6)
 	_initial := (_total - (_validator+_staker)*num) / len(initialAccounts)
 
-	totalSupply := futils.ToDeam(uint64(_total) * 1e6)
-	balance := futils.ToDeam(uint64(_validator) * 1e6)
-	stake := futils.ToDeam(uint64(_staker) * 1e6)
-	initialBalance := futils.ToDeam(uint64(_initial) * 1e6)
+	totalSupply := futils.ToDeam(uint64(_total))
+	balance := futils.ToDeam(uint64(_validator))
+	stake := futils.ToDeam(uint64(_staker))
+	initialBalance := futils.ToDeam(uint64(_initial))
 
 	validators := make(gpos.Validators, 0, num)
 
@@ -222,29 +196,21 @@ func MakeTestnetGenesisStore() *genesisstore.Store {
 	genStore.SetRules(galaxy.TestNetRules())
 	var validatorAccounts = []ValidatorAccount{
 		{
-			address:   "0x1100FF293E6DBF8ab29077d048c5FbA0AD68E45E",
-			validator: "0439b9f3f5a56c6aa8c79e01094d496d4e5b0b2116f6e26790177fb7639ffdf473ed428b71eec45e9789e3210cd46e663b9852d2f58ce7070bf1c928ace37d904a",
+			address:   "0x11111111aCC5167eC76ba11Bfc8e6Aa595b816B7",
+			validator: "04c88ecc035ab92b27ee5f601c116ca34aec75db1cc80336dc718f71a685b7c72b9825d932a3e81906f8696ba90c6ad37fe249e91280609c2ade5166a343fca463",
 		},
 		{
-			address:   "0x2200cEE5dB1506C1BD3d4606A02B25EFa04040A1",
-			validator: "04be3ddfc6d48ad5d0ab793968f30e412cfaf0a1e1bdf3af63f542c4082191349ef8d2d13a1a1ce2b1512526f1ff53bbb8365d7f2e953b64fcc8cc93ce6ab60d9d",
+			address:   "0x22222222cfaecf02D2Ec037D070996e1E933B655",
+			validator: "046c294ab24ccd1730e200069f269abfc2dd4535105b80ce5f072cc4da70fb1dd0e045c81866213351b8ef287a27036b51d954e529b601db02f12e55ba911b0027",
 		},
 		{
-			address:   "0x330021E57830B5ec84E01C15dD41baBdF40Fe8eD",
-			validator: "0439b9f3f5a56c6aa8c79e01094d496d4e5b0b2116f6e26790177fb7639ffdf473ed428b71eec45e9789e3210cd46e663b9852d2f58ce7070bf1c928ace37d904a",
-		},
-		{
-			address:   "0x4400272572eB58878ec90e9e6D7d5Bf9eBB2Da4B",
-			validator: "04be3ddfc6d48ad5d0ab793968f30e412cfaf0a1e1bdf3af63f542c4082191349ef8d2d13a1a1ce2b1512526f1ff53bbb8365d7f2e953b64fcc8cc93ce6ab60d9d",
+			address:   "0x33333333A4c641FC9a8A1BF806Af683Fc9bd89E9",
+			validator: "043ffe83fd18973d42e39826ecc5f08b81190ccbb0ac27cdaf66397844e81c0631a2f369322c3361ee9e7e42b980f96254c01d9512867199a22e0c287a821488f4",
 		},
 	}
 
 	var initialAccounts = []string{
-		"0x00d6E7364475Ac4190b9Ca2a63E1d39Fd8E446AC",
-		"0xD8B565815470b66962F6b92861541b097cb0Fe79",
-		"0x3F6Cd2f3C180359FF052840E0fDdb6FFaFE78c46",
-		"0x618F76d91e4F93F1628c3fa9f7247Cf675206444",
-		"0xa513B52255B1dEBE701ceE75d919da86F6011d76",
+		"0x007da50000dc48e3fbf65d637f8c4cb988518f9f",
 	}
 
 	num := len(validatorAccounts)

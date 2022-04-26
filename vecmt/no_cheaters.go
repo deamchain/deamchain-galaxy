@@ -3,7 +3,7 @@ package vecmt
 import (
 	"errors"
 
-	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/deam-base/hash"
 )
 
 // NoCheaters excludes events which are observed by selfParents as cheaters.

@@ -1,8 +1,8 @@
 package evmstore
 
 import (
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/kvdb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
 	"github.com/deamchain/deamchain-galaxy/evmcore"

@@ -21,9 +21,9 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/pos"
 	"github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"

@@ -3,7 +3,7 @@ package drivertype
 import (
 	"math/big"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 
 	"github.com/deamchain/deamchain-galaxy/inter/validatorpk"
 )

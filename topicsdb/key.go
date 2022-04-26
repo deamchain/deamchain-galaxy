@@ -1,7 +1,7 @@
 package topicsdb
 
 import (
-	"github.com/deamchain/lachesis-base/common/bigendian"
+	"github.com/deamchain/deam-base/common/bigendian"
 	"github.com/ethereum/go-ethereum/common"
 )
 

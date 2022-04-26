@@ -5,9 +5,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/kvdb/table"
-	"github.com/deamchain/lachesis-base/utils/simplewlru"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/kvdb/table"
+	"github.com/deamchain/deam-base/utils/simplewlru"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"

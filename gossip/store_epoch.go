@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/kvdb"
-	"github.com/deamchain/lachesis-base/kvdb/skiperrors"
-	"github.com/deamchain/lachesis-base/kvdb/table"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb/skiperrors"
+	"github.com/deamchain/deam-base/kvdb/table"
 
 	"github.com/deamchain/deamchain-galaxy/logger"
 )

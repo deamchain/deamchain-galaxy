@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/deamchain/lachesis-base/eventcheck/epochcheck"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/deam-base/eventcheck/epochcheck"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/pos"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 )

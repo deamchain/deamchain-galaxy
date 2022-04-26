@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/deamchain/deamchain-galaxy/evmcore"

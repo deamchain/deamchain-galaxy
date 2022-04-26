@@ -3,9 +3,9 @@ package emitter
 import (
 	"time"
 
-	"github.com/deamchain/lachesis-base/emitter/ancestor"
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/emitter/ancestor"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
 )
 
 // buildSearchStrategies returns a strategy for each parent search

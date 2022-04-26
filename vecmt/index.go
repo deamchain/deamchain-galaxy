@@ -1,16 +1,16 @@
 package vecmt
 
 import (
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/dag"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/inter/pos"
-	"github.com/deamchain/lachesis-base/kvdb"
-	"github.com/deamchain/lachesis-base/kvdb/table"
-	"github.com/deamchain/lachesis-base/utils/cachescale"
-	"github.com/deamchain/lachesis-base/utils/wlru"
-	"github.com/deamchain/lachesis-base/vecengine"
-	"github.com/deamchain/lachesis-base/vecfc"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/dag"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/pos"
+	"github.com/deamchain/deam-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb/table"
+	"github.com/deamchain/deam-base/utils/cachescale"
+	"github.com/deamchain/deam-base/utils/wlru"
+	"github.com/deamchain/deam-base/vecengine"
+	"github.com/deamchain/deam-base/vecfc"
 )
 
 // IndexCacheConfig - config for cache sizes of Engine

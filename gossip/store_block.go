@@ -1,8 +1,8 @@
 package gossip
 
 import (
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/ethereum/go-ethereum/rlp"
 
 	"github.com/deamchain/deamchain-galaxy/inter"

@@ -3,9 +3,9 @@ package utils
 import (
 	"crypto/sha256"
 
-	"github.com/deamchain/lachesis-base/common/littleendian"
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/deam-base/common/littleendian"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/pos"
 )
 
 type weightedShuffleNode struct {

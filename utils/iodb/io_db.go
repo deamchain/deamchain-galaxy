@@ -3,8 +3,8 @@ package iodb
 import (
 	"io"
 
-	"github.com/deamchain/lachesis-base/common/bigendian"
-	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/deam-base/common/bigendian"
+	"github.com/deamchain/deam-base/kvdb"
 
 	"github.com/deamchain/deamchain-galaxy/utils/ioread"
 )

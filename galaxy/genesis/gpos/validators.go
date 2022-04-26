@@ -4,8 +4,8 @@ import (
 	"github.com/deamchain/deamchain-galaxy/inter"
 	"github.com/ethereum/go-ethereum/common"
 
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/deamchain/deamchain-galaxy/inter/validatorpk"
-	"github.com/deamchain/lachesis-base/inter/idx"
 )
 
 type (

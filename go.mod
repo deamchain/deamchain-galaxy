@@ -1,6 +1,5 @@
 module github.com/deamchain/deamchain-galaxy
 
-
 go 1.14
 
 require (
@@ -9,13 +8,13 @@ require (
 	github.com/cespare/cp v1.1.1
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd // indirect
 	github.com/davecgh/go-spew v1.1.1
+	github.com/deamchain/deam-base v0.1.0
 	github.com/deckarep/golang-set v1.7.1
 	github.com/docker/docker v1.13.1
 	github.com/dvyukov/go-fuzz v0.0.0-20201127111758-49e582c6c23d
 	github.com/ethereum/go-ethereum v1.9.22
 	github.com/evalphobia/logrus_sentry v0.8.2
 	github.com/fjl/memsize v0.0.0-20190710130421-bcb5799ab5e5
-	github.com/deamchain/lachesis-base v0.1.0
 	github.com/gballet/go-libpcsclite v0.0.0-20191108122812-4678299bea08 // indirect
 	github.com/getsentry/raven-go v0.2.0 // indirect
 	github.com/golang/mock v1.3.1

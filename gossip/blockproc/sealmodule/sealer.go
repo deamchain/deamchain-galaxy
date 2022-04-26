@@ -3,9 +3,9 @@ package sealmodule
 import (
 	"math/big"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/inter/pos"
-	"github.com/deamchain/lachesis-base/lachesis"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/pos"
+	"github.com/deamchain/deam-base/lachesis"
 
 	"github.com/deamchain/deamchain-galaxy/gossip/blockproc"
 )

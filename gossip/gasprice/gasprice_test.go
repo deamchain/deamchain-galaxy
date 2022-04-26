@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/stretchr/testify/require"
 
 	galaxy "github.com/deamchain/deamchain-galaxy/galaxy"

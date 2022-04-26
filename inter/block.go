@@ -1,7 +1,7 @@
 package inter
 
 import (
-	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/deam-base/hash"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 )

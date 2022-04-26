@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 
 	galaxy "github.com/deamchain/deamchain-galaxy/galaxy"
 	"github.com/deamchain/deamchain-galaxy/utils/piecefunc"

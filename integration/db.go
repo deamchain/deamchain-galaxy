@@ -4,12 +4,12 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/dag"
-	"github.com/deamchain/lachesis-base/kvdb"
-	"github.com/deamchain/lachesis-base/kvdb/leveldb"
-	"github.com/deamchain/lachesis-base/kvdb/memorydb"
-	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/dag"
+	"github.com/deamchain/deam-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb/leveldb"
+	"github.com/deamchain/deam-base/kvdb/memorydb"
+	"github.com/deamchain/deam-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
 	"github.com/deamchain/deamchain-galaxy/gossip"

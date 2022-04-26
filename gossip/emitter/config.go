@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/ethereum/go-ethereum/params"
 
 	galaxy "github.com/deamchain/deamchain-galaxy/galaxy"

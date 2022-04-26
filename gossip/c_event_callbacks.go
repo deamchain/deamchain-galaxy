@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/deamchain/lachesis-base/gossip/dagprocessor"
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/deam-base/gossip/dagprocessor"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/dag"
 	"github.com/ethereum/go-ethereum/common"
 
 	"github.com/deamchain/deamchain-galaxy/eventcheck"

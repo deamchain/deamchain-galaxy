@@ -3,9 +3,9 @@ package emitter
 import (
 	"time"
 
-	"github.com/deamchain/lachesis-base/emitter/ancestor"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/inter/pos"
+	"github.com/deamchain/deam-base/emitter/ancestor"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/pos"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 	"github.com/deamchain/deamchain-galaxy/utils/piecefunc"

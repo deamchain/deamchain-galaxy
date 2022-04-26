@@ -7,8 +7,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/kvdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"

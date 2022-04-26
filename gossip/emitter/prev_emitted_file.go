@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/deam-base/hash"
 	"github.com/ethereum/go-ethereum/log"
 )
 

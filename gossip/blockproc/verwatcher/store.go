@@ -1,7 +1,7 @@
 package verwatcher
 
 import (
-	"github.com/deamchain/lachesis-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb"
 
 	"github.com/deamchain/deamchain-galaxy/logger"
 )

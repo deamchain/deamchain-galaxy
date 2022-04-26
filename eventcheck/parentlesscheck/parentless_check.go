@@ -1,10 +1,10 @@
 package parentlesscheck
 
 import (
-	"github.com/deamchain/lachesis-base/eventcheck/epochcheck"
-	"github.com/deamchain/lachesis-base/eventcheck/queuedcheck"
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/deam-base/eventcheck/epochcheck"
+	"github.com/deamchain/deam-base/eventcheck/queuedcheck"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/dag"
 )
 
 type Checker struct {

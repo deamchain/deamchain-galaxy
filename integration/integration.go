@@ -3,8 +3,8 @@ package integration
 import (
 	"time"
 
-	"github.com/deamchain/lachesis-base/abft"
-	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/deam-base/abft"
+	"github.com/deamchain/deam-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"

@@ -3,15 +3,15 @@ package vecmt
 import (
 	"testing"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/vecfc"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/vecfc"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/dag"
-	"github.com/deamchain/lachesis-base/inter/dag/tdag"
-	"github.com/deamchain/lachesis-base/inter/pos"
-	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/dag"
+	"github.com/deamchain/deam-base/inter/dag/tdag"
+	"github.com/deamchain/deam-base/inter/pos"
+	"github.com/deamchain/deam-base/kvdb/memorydb"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 )

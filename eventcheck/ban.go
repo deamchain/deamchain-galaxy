@@ -1,7 +1,7 @@
 package eventcheck
 
 import (
-	base "github.com/deamchain/lachesis-base/eventcheck"
+	base "github.com/deamchain/deam-base/eventcheck"
 
 	"github.com/deamchain/deamchain-galaxy/eventcheck/epochcheck"
 )

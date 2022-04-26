@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/deamchain/lachesis-base/kvdb/memorydb"
+	"github.com/deamchain/deam-base/kvdb/memorydb"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/core/rawdb"

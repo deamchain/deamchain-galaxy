@@ -1,8 +1,8 @@
 package sfcapi
 
 import (
-	"github.com/deamchain/lachesis-base/kvdb"
-	"github.com/deamchain/lachesis-base/kvdb/table"
+	"github.com/deamchain/deam-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb/table"
 
 	"github.com/deamchain/deamchain-galaxy/logger"
 	"github.com/deamchain/deamchain-galaxy/utils/rlpstore"

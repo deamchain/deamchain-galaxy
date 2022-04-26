@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/deamchain/deamchain-galaxy/integration/makegenesis"

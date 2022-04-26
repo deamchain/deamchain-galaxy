@@ -3,8 +3,8 @@ package emitter
 import (
 	"math"
 
-	"github.com/deamchain/lachesis-base/emitter/ancestor"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/emitter/ancestor"
+	"github.com/deamchain/deam-base/inter/idx"
 
 	"github.com/deamchain/deamchain-galaxy/utils/piecefunc"
 )

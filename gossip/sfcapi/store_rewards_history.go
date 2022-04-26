@@ -3,7 +3,7 @@ package sfcapi
 import (
 	"math/big"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 )
 
 // GetDelegationClaimedRewards returns sum of claimed rewards in past, by this delegation

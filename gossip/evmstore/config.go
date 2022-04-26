@@ -1,7 +1,7 @@
 package evmstore
 
 import (
-	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/deam-base/utils/cachescale"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 )
 

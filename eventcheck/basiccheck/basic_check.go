@@ -4,7 +4,7 @@ import (
 	"errors"
 	"math"
 
-	base "github.com/deamchain/lachesis-base/eventcheck/basiccheck"
+	base "github.com/deamchain/deam-base/eventcheck/basiccheck"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	"github.com/deamchain/deamchain-galaxy/evmcore"

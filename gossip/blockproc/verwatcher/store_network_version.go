@@ -1,7 +1,7 @@
 package verwatcher
 
 import (
-	"github.com/deamchain/lachesis-base/common/bigendian"
+	"github.com/deamchain/deam-base/common/bigendian"
 )
 
 const (

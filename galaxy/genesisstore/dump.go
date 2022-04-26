@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/deamchain/lachesis-base/hash"
+	"github.com/deamchain/deam-base/hash"
 	"github.com/status-im/keycard-go/hexutils"
 
 	"github.com/deamchain/deamchain-galaxy/utils/iodb"

@@ -1,10 +1,10 @@
 package vecmt
 
 import (
-	"github.com/deamchain/lachesis-base/inter/dag"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/vecengine"
-	"github.com/deamchain/lachesis-base/vecfc"
+	"github.com/deamchain/deam-base/inter/dag"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/vecengine"
+	"github.com/deamchain/deam-base/vecfc"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 )

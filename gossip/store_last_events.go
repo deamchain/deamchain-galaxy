@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
 
 	"github.com/deamchain/deamchain-galaxy/utils/concurrent"
 )

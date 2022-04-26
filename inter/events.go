@@ -3,8 +3,8 @@ package inter
 import (
 	"bytes"
 
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/dag"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/dag"
 )
 
 // Events is a ordered slice of events.

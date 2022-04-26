@@ -3,8 +3,8 @@ package epochcheck
 import (
 	"errors"
 
-	base "github.com/deamchain/lachesis-base/eventcheck/epochcheck"
-	"github.com/deamchain/lachesis-base/inter/idx"
+	base "github.com/deamchain/deam-base/eventcheck/epochcheck"
+	"github.com/deamchain/deam-base/inter/idx"
 	"github.com/ethereum/go-ethereum/core/types"
 
 	galaxy "github.com/deamchain/deamchain-galaxy/galaxy"

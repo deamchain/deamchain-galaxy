@@ -12,9 +12,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/deamchain/lachesis-base/abft"
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/deam-base/abft"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/cmd/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

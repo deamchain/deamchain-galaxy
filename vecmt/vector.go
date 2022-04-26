@@ -3,8 +3,8 @@ package vecmt
 import (
 	"encoding/binary"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/vecfc"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/vecfc"
 
 	"github.com/deamchain/deamchain-galaxy/inter"
 )

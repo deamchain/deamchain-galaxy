@@ -3,7 +3,7 @@ package inter
 import (
 	"time"
 
-	"github.com/deamchain/lachesis-base/common/bigendian"
+	"github.com/deamchain/deam-base/common/bigendian"
 )
 
 type (

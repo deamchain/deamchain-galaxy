@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/deamchain/lachesis-base/abft"
-	"github.com/deamchain/lachesis-base/hash"
-	"github.com/deamchain/lachesis-base/inter/idx"
-	"github.com/deamchain/lachesis-base/kvdb"
-	"github.com/deamchain/lachesis-base/kvdb/leveldb"
-	"github.com/deamchain/lachesis-base/utils/cachescale"
+	"github.com/deamchain/deam-base/abft"
+	"github.com/deamchain/deam-base/hash"
+	"github.com/deamchain/deam-base/inter/idx"
+	"github.com/deamchain/deam-base/kvdb"
+	"github.com/deamchain/deam-base/kvdb/leveldb"
+	"github.com/deamchain/deam-base/utils/cachescale"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 

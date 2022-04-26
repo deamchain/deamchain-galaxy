@@ -4,7 +4,7 @@ import (
 	"github.com/pkg/errors"
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/deamchain/lachesis-base/inter/idx"
+	"github.com/deamchain/deam-base/inter/idx"
 
 	"github.com/deamchain/deamchain-galaxy/gossip/emitter"
 	"github.com/deamchain/deamchain-galaxy/integration/makegenesis"
