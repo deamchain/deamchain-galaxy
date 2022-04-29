@@ -91,8 +91,8 @@ var (
 	}
 
 	AllowedGalaxyGenesisHashes = map[uint64]hash.Hash{
-		galaxy.MainNetworkID: hash.HexToHash("0x44f2384ff80257bed73f839f7f35ee0e6535d64c9646acd54f1b8f65cd9d0241"), // real 0xa97be35f423207258c18624416d67950933456c9a549585b9517c2d81c42a0ce
-		galaxy.TestNetworkID: hash.HexToHash("0xd22b6357d629093ad7fb1611ea13d279980977f387382c9a54c09e9802e2c577"), // real 0x0774ccb0a820e486c3f435b805240f0ab8ceb79bf19af9617b548a28ce6ff9d2
+		galaxy.MainNetworkID: hash.HexToHash("0xdecc188e8071d87845135c8cd6625009c2ec20f841099532728a513d6d6c7edf"), // real 0xa97be35f423207258c18624416d67950933456c9a549585b9517c2d81c42a0ce
+		galaxy.TestNetworkID: hash.HexToHash("0x087c412fdd59be02380be30ce492759a6d3cdc7e9a3a2035c519049f3a51c18b"), // real 0x0774ccb0a820e486c3f435b805240f0ab8ceb79bf19af9617b548a28ce6ff9d2
 	}
 )
 
