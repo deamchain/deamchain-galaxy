@@ -215,15 +215,15 @@ func MakeTestnetGenesisStore() *genesisstore.Store {
 
 	num := len(validatorAccounts)
 
-	_total := 5000
-	_validator := 10
-	_staker := 100
-	_initial := (5000 - (_validator+_staker)*num) / 10
+	_total := int(1e9)
+	_validator := 0
+	_staker := int(1 * 1e6)
+	_initial := (_total - (_validator+_staker)*num) / len(initialAccounts)
 
-	totalSupply := futils.ToDeam(uint64(_total) * 1e6)
-	balance := futils.ToDeam(uint64(_validator) * 1e6)
-	stake := futils.ToDeam(uint64(_staker) * 1e6)
-	initialBalance := futils.ToDeam(uint64(_initial) * 1e6)
+	totalSupply := futils.ToDeam(uint64(_total))
+	balance := futils.ToDeam(uint64(_validator))
+	stake := futils.ToDeam(uint64(_staker))
+	initialBalance := futils.ToDeam(uint64(_initial))
 
 	validators := make(gpos.Validators, 0, num)
 
