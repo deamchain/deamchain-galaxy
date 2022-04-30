@@ -343,19 +343,19 @@ func (pool *TxPool) loop() {
 
 	for {
 		// Galaxy-specific gas price updates
-		if time.Since(pool.lastGasPriceUpdate) > time.Second {
-			newPrice := pool.chain.RecommendedMinGasPrice()
-			if newPrice != nil {
-				cfgLimit := new(big.Int).SetUint64(pool.config.PriceLimit)
-				if newPrice.Cmp(cfgLimit) < 0 {
-					newPrice = cfgLimit
-				}
-				if pool.gasPrice.Cmp(newPrice) != 0 {
-					pool.SetGasPriceWithCap(newPrice, pool.chain.MinGasPrice())
-				}
-			}
-			pool.lastGasPriceUpdate = time.Now()
-		}
+		// if time.Since(pool.lastGasPriceUpdate) > time.Second {
+		// 	newPrice := pool.chain.RecommendedMinGasPrice()
+		// 	if newPrice != nil {
+		// 		cfgLimit := new(big.Int).SetUint64(pool.config.PriceLimit)
+		// 		if newPrice.Cmp(cfgLimit) < 0 {
+		// 			newPrice = cfgLimit
+		// 		}
+		// 		if pool.gasPrice.Cmp(newPrice) != 0 {
+		// 			pool.SetGasPriceWithCap(newPrice, pool.chain.MinGasPrice())
+		// 		}
+		// 	}
+		// 	pool.lastGasPriceUpdate = time.Now()
+		// }
 
 		select {
 		// Handle ChainHeadNotify
